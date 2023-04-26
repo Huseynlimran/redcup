@@ -1,14 +1,14 @@
 .main{
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
-    svg{
+    background-color: #ff0000;
+    height: 100vh;
+    padding: 50px 0px;
+    img{
         width: 100%;
-        @media (max-width:600px) {
-            width: 30%;
-        }
+        height: auto;
+        
     }
     h1{
         font-family:'Courier New', Courier, monospace;
