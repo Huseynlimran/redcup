@@ -12,6 +12,13 @@ nav {
     background-color: rgba(255, 255, 255, 0.514);
     backdrop-filter: blur(1em);
     -webkit-backdrop-filter: blur(1em);
+    .logo{
+      width: 5%;
+      height: auto;
+      @media (max-width: 500px) {
+        width: 10%;
+      }
+    }
 
     .container{
         display: flex;

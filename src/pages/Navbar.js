@@ -6,12 +6,12 @@ export default function Navbar() {
   return (
     <nav>
       <div className="container">
-        <img src="img/black.png" alt="" />
+        <img src="img/logo-bandc.png" className="logo" alt="" />
         <div className="social">
-          <a href="https://www.instagram.com/redcupbeerbaku/?__coig_restricted=1" className="icons"  rel="noreferrer" target="_blank">
+          <a href="https://www.instagram.com/drinkupbaku" className="icons"  rel="noreferrer" target="_blank">
             <AiFillInstagram />
           </a>
-          <a href="https://www.tiktok.com/@redcupbeer"  className="icons" rel="noreferrer" target="_blank">
+          <a href="https://www.tiktok.com/@drinkupbaku"  className="icons" rel="noreferrer" target="_blank">
             <FaTiktok />
           </a>
           <a href="https://wa.link/tvhv7l" rel="noreferrer" className="contact" target="_blank">
