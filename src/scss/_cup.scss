@@ -3,15 +3,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    .bgcup{
-        position: absolute;
-        top:0px;
-        left: 0px;
-        right: 0px;
-        z-index: -1;
-        width: 100%;
-        height: auto;
-    }
+   
     .cupimg{
         margin-top: 40px;
         display: flex;
@@ -27,7 +19,8 @@
         }
 
         img{
-            width: 45%;
+            width: 35%;
+            height: auto;
         }
     }
     }
