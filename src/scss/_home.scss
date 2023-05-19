@@ -1,7 +1,10 @@
 .main {
+  margin-top: 25vh;
+  @media(max-width: $breakpoint480){
+    margin-top: 10vh;
+  }
   
   video {
-    padding-top: 10vh;
     width: 100%;
     height: auto;
   }

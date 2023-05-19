@@ -3,6 +3,15 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    .beer{
+        position: absolute;
+        top: -50px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
    
     .cupimg{
         margin-top: 40px;
