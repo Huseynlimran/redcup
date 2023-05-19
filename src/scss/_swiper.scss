@@ -36,6 +36,11 @@
     video{
         width: 100%;
         height: auto;
+        @media(max-width: $breakpoint480){
+            width: 1000px;
+            height: auto;
+        }
+
     }
   }
   
